@@ -1,0 +1,128 @@
+.parent {
+    position: relative;
+}
+
+.over-img {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    box-shadow: 0 0 9px #000000;
+    border-radius: 8px;
+
+}
+
+.over-img1 {
+    position: absolute;
+    top: 40%;
+    left: 31.3%;
+    border-radius: 8px;
+
+}
+
+.over-img2 {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    border-radius: 8px;
+
+}
+
+.saturate {
+    filter: saturate(3);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.contrast {
+    filter: contrast(160%);
+}
+
+.brightness {
+    filter: brightness(0.25);
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.labl>input {
+    /* HIDE RADIO */
+    visibility: hidden;
+    /* Makes input not-clickable */
+    position: absolute;
+    /* Remove input from document flow */
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/Preloader_2.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .8;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    color: blanchedalmond;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.card_title {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    color: chartreuse;
+}
+
+.ph1 {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    color: chartreuse;
+}
+
+.email {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    color: chartreuse;
+}
+
+.email1 {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    color: chartreuse;
+}
